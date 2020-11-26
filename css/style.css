@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero-section {
+    height: 100vh;
+    color: #fff;
+    background-image: url(../img/foto.jpg);
+    background-position: center, center;
+    background-size: cover;
+    position: relative;
+    /* opacity: 0.5; */
+}
+/* 
+#hero-section:hover {
+    opacity: 1;
+} */
+
+.text {
+    position: absolute;
+    font-size: 32px;
+    top: 50%;
+    left: 10%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+    .text h1 {
+        width: 300px;
+    }
+}
